@@ -20,7 +20,7 @@ end
 
 def add_element(array)
   # add an element (of any value) to the array
-  return array + [1]
+  return array.push(1)
 end
 
 def remove_last_element(array)
